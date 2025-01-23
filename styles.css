@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #F0F2F5;
+    display: flex;
+    justify-content: centre;
+    align-content: centre;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Poppings' sans-serif;
+    padding: 20px;
+}
+.left {
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+.right {
+    position: relative;
+    display: flex;
+    width:30%;
+    /* background-color: red; */
+    /* padding: 20px; */
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px 0px 40px;
+}
+nav .signup a {
+    font-size:14px;
+    font-weight: 500;
+    font-family: 'Poppings', sans-serif;
+    text-decoration: none;
+    color: #20dc49
+}
+
+.right img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+
+form h1 {
+    font-size:36px;
+}
+
+form p {
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 80px;
+}
+
+.btn-con {
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.google {
+    border: 1px solid #20dc49;
+}
+
+.facebook {
+    border: 1px solid #dedede;
+}
+form button {
+    display: flex;
+    justify-content: center;
+    width: 126px;
+    height: 44px;
+    background-color: white;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.seperator {
+    display: flex;
+    align-items: center;
+    gap:20px;
+    padding-top: 20px;
+}
+.seperator div {
+    width:130px;
+    height:0;
+    border: 1px solid #dbdbdb;
+}
+
+.seperator p {
+    padding: 0;
+}
+
+input {
+    width: 400px;
+    height: 70px;
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.password-input {
+    position: relative;
+}
+
+.eye {
+    position: absolute;
+    top: 57.5%;
+    right: 20px;
+}
+.options {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    padding: 20px;
+}
+
+.options input {
+    position: relative;
+    top: -40px;
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+}
+
+.remember {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.forgot {
+    font-size: 14px;
+    font-weight: 100;
+    color: #d93f21;
+}
+
+.submit {
+    width: 400px;
+    height: 55px;
+    border: 1px solid #5a5a5a;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 18px;
+}
